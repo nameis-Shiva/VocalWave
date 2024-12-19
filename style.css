@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+   width: 100%;
+   height: 100vh;
+  background-image: linear-gradient(to left bottom, #0c1c17, #041d20, #071d29, #181a2b, #281626);
+  }
+
+  #container{
+    height: 85%;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 2.4%;
+    position: absolute;
+    box-shadow: 0 0 30px 0 rgba(74, 12, 81, 0.5);
+    border-radius: 20px;
+    overflow-y: hidden;
+   background-image: linear-gradient(to left bottom, #314439, #2c4e4f, #365565, #535973, #755b73);
+  }
+
+#nav{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#notes {
+    margin-top: 20px;
+  }
+
+  #nav h1{
+    padding: 10px;
+    width: 33.33%;
+    margin-left: 33.34%;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  #start-btn{
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 50px;
+    width: 150px;
+    background-image: linear-gradient(to left bottom, #3cc41f, #08b341, #00a153, #008f5c, #077c5f);
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #start-btn:hover{
+    background-color: #07ef45;
+    box-shadow: 0 0 10px 0 rgba(4, 235, 96, 0.5);
+  }
+
+  #Listen img{
+    color: green;
+  }
+
+  #stop{
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 50px;
+    width: 150px;
+    background-image: linear-gradient(to left bottom, #ac0d4b, #9e0a3f, #8f0734, #81052a, #730421);
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  #stop:hover{
+    background-color: rgb(186, 55, 55);
+    box-shadow: 0 0 10px 0 rgba(86, 2, 73, 0.5);
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  #notes{
+  background-image: linear-gradient(to left bottom, #705a12, #776610, #7c720d, #807f0b, #828c0c);
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-weight: bold;
+  }
+
+  #notes i{
+    margin-left: 95%;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(94, 92, 92);
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid rgb(233, 233, 173);
+    cursor: pointer;
+  }
+
+  #read{
+    padding: 2px 4px;
+    border: none;
+    background-color: rgb(132, 132, 242);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 3%;
+  }
+  #read:hover{
+    box-shadow: 0 0 10px 0 rgb(129, 129, 198);
+  }
+
+  #get{
+    padding: 2px 4px;
+    border: none;
+    background-color: rgb(53, 168, 53);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 3%;
+  }
+  #get:hover{
+    box-shadow: 0 0 10px 0 rgb(125, 201, 125);
+  }
+
+  #Enter{
+    margin-top: 10%;
+    margin-left: 75%;
+    position: absolute;
+  }
+
+  #Enter textarea{
+    background-image: linear-gradient(to left bottom, #fcf8fa, #f5f1fd, #deefff, #c2eff9, #b6ecde);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 300px;
+    display: block;
+  }
+
+  #submit{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    cursor: pointer;
+  }
+  #submit:hover{
+    box-shadow: 0 0 10px 0 rgb(48, 108, 63);
+  }
+
+  #Listen img{
+    position: absolute;
+     margin-top: 5%;
+    margin-left: 45%;
+    margin-bottom: 10px;
+  }

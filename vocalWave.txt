@@ -1,0 +1,9 @@
+About VocalWave ------ >
+
+1. This app allows  us to take notes about what we are speaking(it will covert the data from your voice into text).
+2. It allows us the same to copy to our clipboard.
+3. It will read out the text for  us.
+4. It can also take the text from us and read it out for us.
+5. It will "search for" us in google about anything which we ask in the form of voice, it will show the result
+6. It will "go to" any website which we demand for.
+7. it follows basic commands like "open youtube", "open google" etc.
